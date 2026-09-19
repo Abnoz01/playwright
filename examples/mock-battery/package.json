@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "playwright test",
-    "start": "http-server -c-1 -p 9900 demo-battery-api"
+    "start": "node init && http-server -c-1 -p 9900 demo-battery-api"
   },
   "keywords": [],
   "author": "",

@@ -1,5 +1,6 @@
 node_modules/
 /test-results/
+/coverage/
 /tests/coverage-report
 .local-browsers/
 /.dev_profile*
@@ -7,7 +8,6 @@ node_modules/
 *.swp
 *.pyc
 DEPS.true
-/.vscode
 .mono
 .idea
 yarn.lock
@@ -32,7 +32,6 @@ test-results
 /packages/playwright-test/README.md
 /packages/playwright-core/api.json
 /packages/playwright-cli
-.env
 /tests/installation/output/
 /tests/installation/.registry.json
 .cache/
@@ -41,3 +40,7 @@ playwright.env
 /firefox/
 .playwright/
 .npmrc
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
